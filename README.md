@@ -1,2 +1,2 @@
-# Jogo-da-cobrinha-com-JavaScript
+# Jogo Snake - JavaScript
 Nesse projeto, será recriado o jogo famoso SNAKE
