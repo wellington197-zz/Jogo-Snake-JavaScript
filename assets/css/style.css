@@ -1,19 +1,63 @@
 *{
-    padding: 0;
+    /*Resetar os estilos padrão do HTML*/
     margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
 }
 body{
-    height: 95hv;
-    width: 95hv;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #050527;
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
+
+header{
+    background-color:red;
 }
 .pontuacao{
     display: inline-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom:25px;
+    font-size:40px;
+    color:yellow;
+
 }
 h3{
     margin-right: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+
+
+}
+h1{
+    font-size:60px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+
+    margin-bottom:30px;
+
+
+}
+.tela-fundo-principal{
+    background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/floresta2.jpg');
+    height: 750px;
+
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.container-fundo-inicial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+
 }
