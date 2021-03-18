@@ -46,8 +46,9 @@ h1{
 }
 .tela-fundo-principal{
     background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/floresta2.jpg');
-    height: 750px;
+    height:calc(100vh - 0px);
 
+    background-size: cover;
   background-size: cover;
     display: flex;
     justify-content: center;
