@@ -1,2 +1,2 @@
 # Jogo-Snake-JavaScript
-Nesse projeto, será recriado o jogo famoso SNAKY
+Nesse projeto, será recriado o jogo famoso SNAKE
